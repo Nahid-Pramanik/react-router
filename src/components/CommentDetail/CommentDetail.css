@@ -1,0 +1,7 @@
+.comment-detail{
+    border: 2px solid green;
+    border-radius: 8px;
+    padding: 16px;
+    max-width: 25%;
+    margin: 20px 50px;
+}
