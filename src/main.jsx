@@ -65,6 +65,10 @@ const router = createBrowserRouter ([
         path: 'comment/:commentId',
         element: <CommentDetail></CommentDetail>,
         loader: ({params}) => fetch(`https://jsonplaceholder.typicode.com/comments/${params.commentId}`)
+      },
+      {
+        path: '*',
+        element: <div>404 Not Found</div>
       }
     ]
   }
